@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+
+    tools:context="onafy.tkiot.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suhu Dalam Ruangan :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KONDISI"
+            android:id="@+id/kondisi1"
+            android:textColor="#FFF"
+            android:textSize="50sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg2"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suhu Luar Ruangan :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KONDISI"
+            android:textColor="#FFF"
+            android:id="@+id/kondisi2"
+            android:textSize="50sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="waktu dan tanggal"
+        android:textSize="20sp"
+        android:background="#FFF"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+</LinearLayout>
